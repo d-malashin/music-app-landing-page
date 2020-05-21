@@ -1,0 +1,17 @@
+.hero {
+  background: url('./assets/images/iPhone-11-Pro.png') no-repeat;
+  padding-top: 21.4rem;
+  &__heading {
+    margin: 0 0 0 20rem;
+
+    font-size: 4.8rem;
+    font-weight: 500;
+    color: $white;
+  }
+  &__btn {
+    margin: 3.8rem 0 0 20rem;
+  }
+  &__appstore-logo {
+    margin-bottom: 28rem;
+  }
+}

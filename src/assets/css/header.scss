@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  background: $light;
+  &__logo {
+    width: 23.6rem;
+    height: 2rem;
+
+    margin: 0 59.5rem 0 20rem;
+  }
+  &__nav {
+    color: $white;
+  }
+  &__btn {
+    margin: 3.3rem 2.4rem;
+  }
+}
+
+.nav {
+  &__list {
+    margin: 0;
+    display: flex;
+    list-style: none;
+  }
+  &__item {
+    margin-right: 4.8rem;
+    font-size: 2.4rem;
+    font-weight: 600;
+    letter-spacing: 0.22px;
+  }
+}

@@ -1,0 +1,66 @@
+// Variables
+$light: #293942;
+$dark: #1b262c;
+$violet: #7971e9;
+$blue: #6994a8;
+$white: #f9f8ff;
+$light-grey: rgba(249, 248, 255, 0.25);
+
+// Global styles
+html {
+  font-size: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html,
+body,
+ul,
+li,
+button,
+a,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 192rem;
+}
+
+.btn {
+  width: 160px;
+  height: 55px;
+  border-radius: 4px;
+  background-color: $violet;
+
+  color: $white;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+
+  border: none;
+
+
+  &--outlined {
+    border: solid 1px $violet;
+    background: none;
+    
+    color: $violet
+  }
+}
+
+// Partials
+
+@import "src/assets/css/header.scss";
+@import "src/assets/css/hero.scss";
+@import "src/assets/css/brands.scss";
+@import "src/assets/css/promo-left.scss";
+@import "src/assets/css/promo-right.scss";
+@import "src/assets/css/advantages.scss";
+@import "src/assets/css/footer.scss";
