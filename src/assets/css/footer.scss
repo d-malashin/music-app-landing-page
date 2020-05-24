@@ -1,0 +1,63 @@
+.footer {
+  padding-top: 4.8rem;
+  background-color: $light;
+
+  width: 100%;
+
+  &__wrapper {
+    margin: 0 0 0 20rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__logo {
+    width: 23.6rem;
+    height: 2rem;
+    background: url("./assets/images/logo.png") no-repeat;
+    margin-bottom: 4.5rem;
+  }
+  &__text {
+    margin: 0;
+    font-size: 1.8rem;
+    line-height: 1.33;
+    color: $light-grey;
+  }
+  &__about {
+    flex: 0 0 20%;
+    margin-right: 20rem;
+  }
+  &__links {
+    flex: 1 1 80%;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.links {
+  &__list {
+    flex-basis: 225px;
+    margin-right: 9rem;
+    list-style: none;
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: $white;
+  }
+  &__heading {
+    display: inline-block;
+    margin-bottom: 3.2rem;
+    font-size: 3.2rem;
+    font-weight: 500;
+    color: $light-grey;
+  }
+
+  &__link {
+    display: block;
+    margin-bottom: 2.4rem;
+  }
+
+  &--get-started {
+  }
+  &--discover {
+  }
+  &--account {
+  }
+}

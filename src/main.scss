@@ -6,6 +6,12 @@ $blue: #6994a8;
 $white: #f9f8ff;
 $light-grey: rgba(249, 248, 255, 0.25);
 
+// Brakepoints
+$small: 600px;
+$medium: 900px;
+$large: 1200px;
+$xlarge: 1920px;
+
 // Global styles
 html {
   font-size: 10px;
@@ -29,7 +35,12 @@ h5 {
 
 .wrapper {
   margin: 0 auto;
-  width: 192rem;
+  @media screen and (min-width: $xlarge) {
+    width: 192rem;
+  }
+  @media screen and (max-width: $xlarge) {
+    width: 120rem;
+  }
 }
 
 .btn {
@@ -46,12 +57,11 @@ h5 {
 
   border: none;
 
-
   &--outlined {
     border: solid 1px $violet;
     background: none;
-    
-    color: $violet
+
+    color: $violet;
   }
 }
 

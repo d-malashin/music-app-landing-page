@@ -3,12 +3,15 @@
   justify-content: flex-start;
   align-items: center;
 
+  width: 100%;
+
   background: $light;
   &__logo {
     width: 23.6rem;
     height: 2rem;
 
-    margin: 0 59.5rem 0 20rem;
+    margin: 0 30% 0 20rem;
+    
   }
   &__nav {
     color: $white;

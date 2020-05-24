@@ -1,0 +1,25 @@
+.promo-block {
+  &--right {
+    flex-direction: row-reverse;
+  }
+}
+
+.promo-text {
+  &--right {
+    margin-left: 20.1rem;
+  }
+}
+
+.gallery {
+  &--right {
+    justify-content: space-around;
+    margin: 8rem 0 8rem 21.8rem;
+  }
+  &__image {
+    &--long {
+      margin: 0;
+      padding: 0;
+      height: 49.3rem;
+    }
+  }
+}

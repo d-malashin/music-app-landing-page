@@ -1,8 +1,12 @@
 .hero {
-  background: url('./assets/images/iPhone-11-Pro.png') no-repeat;
+  background: url("./assets/images/iPhone-11-Pro.png") no-repeat;
   padding-top: 21.4rem;
+  border: 1px solid transparent;
+
+  width: 100%;
+
   &__heading {
-    margin: 0 0 0 20rem;
+    margin: 0 63% 0 20rem;
 
     font-size: 4.8rem;
     font-weight: 500;
@@ -11,7 +15,21 @@
   &__btn {
     margin: 3.8rem 0 0 20rem;
   }
+  &__stores-logo {
+    display: flex;
+    flex-direction: row;
+
+    margin: 2.5rem 0 28rem 0;
+  }
   &__appstore-logo {
-    margin-bottom: 28rem;
+    margin: 0 1.9rem 0 10.4%;
+    width: 14.4rem;
+    height: 4.7rem;
+    background: url("./assets/images/App-Store-Badge–US-Black.png") no-repeat;
+  }
+  &__google-play-logo {
+    background: url("./assets/images/Google-Play-Badge-US.png") no-repeat;
+    width: 16.6rem;
+    height: 4.9rem;
   }
 }
