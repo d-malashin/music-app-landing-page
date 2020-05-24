@@ -11,13 +11,18 @@
     height: 2rem;
 
     margin: 0 30% 0 20rem;
-    
+    @media screen and (max-width: $xlarge) {
+      margin: 0 15% 0 10rem;
+    }
   }
   &__nav {
     color: $white;
   }
   &__btn {
     margin: 3.3rem 2.4rem;
+    @media screen and (max-width: $xlarge) {
+      margin: 1.3rem 1.4rem;
+    }
   }
 }
 
@@ -32,5 +37,8 @@
     font-size: 2.4rem;
     font-weight: 600;
     letter-spacing: 0.22px;
+    @media screen and (max-width: $xlarge) {
+      font-size: 2rem;
+    }
   }
 }

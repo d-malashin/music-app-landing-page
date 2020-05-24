@@ -3,6 +3,8 @@
   background-color: $light;
 
   width: 100%;
+  display: flex;
+  flex-direction: column;
 
   &__wrapper {
     margin: 0 0 0 20rem;
@@ -24,15 +26,27 @@
   &__about {
     flex: 0 0 20%;
     margin-right: 20rem;
+    @media screen and (max-width: $xlarge) {
+      margin-right: 10rem;
+    }
   }
   &__links {
     flex: 1 1 80%;
     display: flex;
     flex-direction: row;
+    
+  }
+  &__social {
+    padding: 3.4rem 50rem;
+    display: flex;
+    justify-content: space-between;
+
+    background: $dark;
   }
 }
 
 .links {
+  margin-bottom: 13rem;
   &__list {
     flex-basis: 225px;
     margin-right: 9rem;
@@ -40,6 +54,9 @@
     font-size: 2.4rem;
     font-weight: 500;
     color: $white;
+    @media screen and (max-width: $xlarge) {
+      margin: 0 1.5rem 0 0;
+    }
   }
   &__heading {
     display: inline-block;
@@ -47,17 +64,25 @@
     font-size: 3.2rem;
     font-weight: 500;
     color: $light-grey;
+    @media screen and (max-width: $xlarge) {
+      font-size: 2.2rem;
+    }
   }
 
   &__link {
     display: block;
     margin-bottom: 2.4rem;
+    @media screen and (max-width: $xlarge) {
+      font-size: 1.2rem;
+    }
   }
+}
 
-  &--get-started {
-  }
-  &--discover {
-  }
-  &--account {
+.social {
+  &__link {
+    text-decoration: none;
+    color: $white;
+    font-size: 2rem;
+    margin-right: 2rem;
   }
 }

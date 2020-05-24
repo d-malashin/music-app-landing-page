@@ -57,6 +57,11 @@ h5 {
 
   border: none;
 
+  @media screen and (max-width: $xlarge) {
+    width: 120px;
+    height: 40px;
+  }
+
   &--outlined {
     border: solid 1px $violet;
     background: none;

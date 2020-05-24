@@ -7,6 +7,9 @@
 .promo-text {
   &--right {
     margin-left: 20.1rem;
+    @media screen and (max-width: $xlarge) {
+      margin: 10rem 1.9rem 0 0;
+    }
   }
 }
 
@@ -14,12 +17,20 @@
   &--right {
     justify-content: space-around;
     margin: 8rem 0 8rem 21.8rem;
+    @media screen and (max-width: $xlarge) {
+      margin: 8rem 2rem 8rem 4rem;
+    }
   }
   &__image {
     &--long {
       margin: 0;
       padding: 0;
       height: 49.3rem;
+      @media screen and (max-width: $xlarge) {
+        width: inherit;
+        height: inherit;
+      }
+      
     }
   }
 }
