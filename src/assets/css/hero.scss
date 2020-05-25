@@ -1,8 +1,8 @@
 .hero {
   background: url("./assets/images/iPhone-11-Pro.png") no-repeat;
   padding-top: 21.4rem;
-  border: 1px solid transparent;
-
+  display: flex;
+  flex-direction: column;
   width: 100%;
   @media screen and (max-width: $xlarge) {
     padding-top: 10rem;
