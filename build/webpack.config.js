@@ -105,7 +105,7 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
-      title: "Template",
+      title: "Musia app landing page",
       template: "./src/index.handlebars",
       filename: "index.html",
       minify: !isDevelopment && {
@@ -113,7 +113,7 @@ module.exports = {
         collapseWhitespace: true,
         caseSensitive: true,
         removeComments: true,
-        removeEmptyElements: true,
+        removeEmptyElements: false,
       },
     }),
   ],
